@@ -37,7 +37,7 @@ app.use("/api/review", reviewRoute);
 app.use("/api/discount", discountRoute);
 
 app.get("/", (req, res) => {
-  res.status(200).json({ msg: "Welcome to the menufaturer-server" });
+  res.status(200).json({ msg: "Welcome to aleeha-single-vendor-ecom" });
 });
 
 app.listen(PORT, () => {
